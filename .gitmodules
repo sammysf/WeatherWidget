@@ -4,3 +4,9 @@
 [submodule "lib/dojo/dojo"]
   path = lib/dojo/dojo
   url = git@github.com:sammysf/WeatherWidget.git
+[submodule "lib/dojo/dojox"]
+  path = lib/dojo/dojox
+  url = git@github.com:sammysf/WeatherWidget.git
+[submodule "lib/dojo/util"]
+  path = lib/dojo/util
+  url = git@github.com:sammysf/WeatherWidget.git
