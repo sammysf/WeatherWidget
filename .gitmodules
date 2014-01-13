@@ -1,6 +1,6 @@
 [submodule "lib/dojo/dijit"]
   path = lib/dojo/dijit
-  url = git@github.com:sammysf/WeatherWidget.git
+  url = git@github.com:sammysf/WeatherWidget/tree/master/lib/dijit
 [submodule "lib/dojo/dojo"]
   path = lib/dojo/dojo
   url = git@github.com:sammysf/WeatherWidget.git
