@@ -1,0 +1,26 @@
+<div class="app-weather-widget" data-dojo-attach-point="widget">
+	<div class="opacity-layer">
+	    <h1>Weather Widget</h1>
+	    <div>
+			<input type="text" name="suggestion" id="suggestion"
+				data-dojo-type="dijit/form/TextBox"
+				data-dojo-attach-point="suggestion"
+				readonly/>
+
+			<input type="text" name="locationInput" id="locationInput"
+				placeholder="SEARCH"
+				data-dojo-type="dijit/form/TextBox"
+				data-dojo-attach-point="locationInput"
+				autofocus="on"/>
+	    </div>
+
+	    <img src="Search2.png"/>
+
+	    <div class="temperature" data-dojo-attach-point="temperature"></div>
+	    <div class="forecast">
+	    	<div class="forecastmodifier" data-dojo-attach-point="forecastmodifier"></div>
+	    	<div class="forecastactual" data-dojo-attach-point="forecastactual"></div>
+	    </div>
+	</div>
+
+</div>

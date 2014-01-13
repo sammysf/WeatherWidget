@@ -1,0 +1,112 @@
+.app-weather-widget {
+    width: 400px;
+    height: 300px;
+    border: solid 1px black;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('http://lh3.ggpht.com/_bmjYBbtGtuA/SxgXo8MrhBI/AAAAAAAABBQ/aGw5vSs8v7s/s400/IMGQ3225.jpg');
+    background-size: 100% 100%;
+
+    /* Border radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+} 
+
+.opacity-layer {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.2);
+
+    /* Border radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.app-weather-widget h1 {
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    font-family: "Futura", sans-serif;
+}
+
+div {
+    color: white;
+    font-family: "Futura", sans-serif;
+    /*text-shadow: 1px 1px 8px black;*/
+}
+
+div.temperature {
+    font-size: 48px;
+    position: absolute;
+    top: 250px;
+    left: 265px;
+}
+
+div.forecast {
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+
+div.forecastmodifier {
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    height: 27px;
+}
+
+div.forecastactual {
+    font-size: 48px;
+    position: relative;
+    top: -12px;
+}
+
+img {
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+input {
+    background-color: transparent;
+    border-color: transparent;
+    height: 35px;
+    color: white;
+    font-family: "Futura", sans-serif;
+    font-size: 28px;
+    position: absolute;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+#suggestion {
+    color: #ccc;
+
+    /* Make suggestion box unselectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    color: black;
+}
+
+li {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
