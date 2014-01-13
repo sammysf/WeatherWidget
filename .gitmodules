@@ -1,1 +1,3 @@
-lib/dojo/dijit
+[submodule "lib/dojo/dijit"]
+  path = lib/dojo/dijit
+  url = git@github.com:sammysf/WeatherWidget.git
